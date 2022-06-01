@@ -1,0 +1,77 @@
+:root {
+  --red: #dc3545;
+  --clarusway_purple: rgba(135, 31, 146, 0.98);
+}
+
+/*! ---------------------- 1- NAVBAR ----------------------------- */
+.navbar-light {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(41, 41, 41);
+  transition: color 0.5s;
+}
+.navbar-light .nav-link:hover {
+  color: var(--clarusway_purple);
+}
+
+/*! ---------------------- 2- CAROUSEL ----------------------------- */
+.carousel-item {
+  height: calc(100vh - 88px);
+}
+.carousel-item h1 {
+  font-size: 2rem;
+  /* color: var(--clarusway_purple); */
+  /* border: greenyellow solid 9px; */
+  color: rgb(255, 0, 72);
+  text-shadow: 2px 2px 2px black;
+  
+}
+.carousel-item p{
+  color: white;
+  font-weight: 500;
+}
+.carousel-item .buttons .btn{
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+.carousel-indicators button{
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  /* border: rgb(255, 0, 140) solid 1px !important; */
+  width: 3rem !important;
+  margin-right: 0.7rem !important;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius:90px 0px;
+  bottom: 5rem;
+}
+
+/*! ------------------- 3- ABOUT SECTION ------------------------ */
+
+
+/*! ------------------- 4- INSTRUCTORS ------------------------ */
+section#instructors .socials i {
+  transition: opacity 1s;
+}
+section#instructors .socials i:hover {
+  opacity: 0.5;
+}
+section#instructors .card {
+  transition: transform 1s;
+}
+section#instructors .card:hover {
+  transform: scale(1.01);
+}
+
+
+/*! ------------------- 4- STUDENTS SECTION ------------------------ */
+
+/*! ------------------- 5- COURSES SECTION ------------------------ */
+
+/*! ------------------- 6- CONTACT SECTION ------------------------ */
+
+/** ------------------- UP-BUTTON --------------------- */
+
+/*! -------------------- 7- FOOTER ------------------------ */
